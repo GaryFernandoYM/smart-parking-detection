@@ -212,8 +212,8 @@ Analysis notebook: `training/modelos/Analisis_Comparativo_v8s_v11s_v12s.ipynb`
 
 ## Resources
 
-- Dataset: [Roboflow Universe](https://universe.roboflow.com/...)
-- Weights: [Hugging Face](https://huggingface.co/...)
+- Dataset: [Roboflow Universe]([https://universe.roboflow.com](https://universe.roboflow.com/fernando-qzldu/smart-parking-upeu/4)/...)
+- Weights: [Hugging Face](https://huggingface.co/GaryFer/smart-parking-weights/...)
 - Validation videos: [Google Drive](https://drive.google.com/...)
 
 ---
