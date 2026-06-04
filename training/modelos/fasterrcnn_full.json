@@ -1,0 +1,568 @@
+{
+  "model": "Faster R-CNN",
+  "dataset": "Smart Parking UPeU v4",
+  "runs": [
+    {
+      "seed": 42,
+      "best_epoch": 98,
+      "final": {
+        "mAP50": 0.9924,
+        "mAP50_95": 0.9852,
+        "precision": 0.9982,
+        "recall": 1.0,
+        "f1": 0.9991,
+        "fps": 27.3,
+        "lat_mean": 36.58,
+        "lat_p50": 36.59,
+        "lat_p95": 37.2,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9885,
+            "mAP50_95": 0.9805,
+            "precision": 0.9959,
+            "recall": 0.9975
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9984,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9888,
+            "mAP50_95": 0.9768,
+            "precision": 0.994,
+            "recall": 0.9964
+          }
+        }
+      }
+    },
+    {
+      "seed": 123,
+      "best_epoch": 97,
+      "final": {
+        "mAP50": 0.9927,
+        "mAP50_95": 0.9871,
+        "precision": 0.9986,
+        "recall": 1.0,
+        "f1": 0.9993,
+        "fps": 27.3,
+        "lat_mean": 36.66,
+        "lat_p50": 36.72,
+        "lat_p95": 37.23,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9894,
+            "mAP50_95": 0.9815,
+            "precision": 0.9967,
+            "recall": 0.9967
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9985,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9887,
+            "mAP50_95": 0.9813,
+            "precision": 0.994,
+            "recall": 0.9976
+          }
+        }
+      }
+    },
+    {
+      "seed": 456,
+      "best_epoch": 99,
+      "final": {
+        "mAP50": 0.9929,
+        "mAP50_95": 0.9874,
+        "precision": 0.9977,
+        "recall": 1.0,
+        "f1": 0.9989,
+        "fps": 27.9,
+        "lat_mean": 35.89,
+        "lat_p50": 35.91,
+        "lat_p95": 36.71,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9899,
+            "mAP50_95": 0.9817,
+            "precision": 0.9942,
+            "recall": 0.9967
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9987,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.989,
+            "mAP50_95": 0.9818,
+            "precision": 0.9928,
+            "recall": 0.9952
+          }
+        }
+      }
+    },
+    {
+      "seed": 789,
+      "best_epoch": 99,
+      "final": {
+        "mAP50": 0.993,
+        "mAP50_95": 0.9875,
+        "precision": 0.9991,
+        "recall": 1.0,
+        "f1": 0.9995,
+        "fps": 27.9,
+        "lat_mean": 35.84,
+        "lat_p50": 35.91,
+        "lat_p95": 36.47,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9899,
+            "mAP50_95": 0.9802,
+            "precision": 0.995,
+            "recall": 0.9959
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.999,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9892,
+            "mAP50_95": 0.9832,
+            "precision": 0.994,
+            "recall": 0.9952
+          }
+        }
+      }
+    },
+    {
+      "seed": 1000,
+      "best_epoch": 90,
+      "final": {
+        "mAP50": 0.9928,
+        "mAP50_95": 0.9874,
+        "precision": 0.9968,
+        "recall": 1.0,
+        "f1": 0.9984,
+        "fps": 27.8,
+        "lat_mean": 36.03,
+        "lat_p50": 35.99,
+        "lat_p95": 36.69,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.99,
+            "mAP50_95": 0.9823,
+            "precision": 0.9959,
+            "recall": 0.9967
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9988,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9884,
+            "mAP50_95": 0.981,
+            "precision": 0.9905,
+            "recall": 0.9976
+          }
+        }
+      }
+    },
+    {
+      "seed": 1234,
+      "best_epoch": 95,
+      "final": {
+        "mAP50": 0.9926,
+        "mAP50_95": 0.9864,
+        "precision": 0.9977,
+        "recall": 1.0,
+        "f1": 0.9989,
+        "fps": 26.0,
+        "lat_mean": 38.51,
+        "lat_p50": 38.55,
+        "lat_p95": 39.51,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9894,
+            "mAP50_95": 0.9821,
+            "precision": 0.9959,
+            "recall": 0.9967
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9988,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9884,
+            "mAP50_95": 0.9784,
+            "precision": 0.9917,
+            "recall": 0.9964
+          }
+        }
+      }
+    },
+    {
+      "seed": 2024,
+      "best_epoch": 98,
+      "final": {
+        "mAP50": 0.9927,
+        "mAP50_95": 0.9865,
+        "precision": 0.9977,
+        "recall": 1.0,
+        "f1": 0.9989,
+        "fps": 27.2,
+        "lat_mean": 36.73,
+        "lat_p50": 36.51,
+        "lat_p95": 38.51,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9899,
+            "mAP50_95": 0.9817,
+            "precision": 0.9959,
+            "recall": 0.9975
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9985,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9883,
+            "mAP50_95": 0.9792,
+            "precision": 0.9928,
+            "recall": 0.9964
+          }
+        }
+      }
+    },
+    {
+      "seed": 2025,
+      "best_epoch": 99,
+      "final": {
+        "mAP50": 0.9921,
+        "mAP50_95": 0.9862,
+        "precision": 0.9982,
+        "recall": 1.0,
+        "f1": 0.9991,
+        "fps": 25.6,
+        "lat_mean": 39.03,
+        "lat_p50": 39.1,
+        "lat_p95": 40.15,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9895,
+            "mAP50_95": 0.9817,
+            "precision": 0.9959,
+            "recall": 0.9975
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9987,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9869,
+            "mAP50_95": 0.9783,
+            "precision": 0.9952,
+            "recall": 0.9976
+          }
+        }
+      }
+    },
+    {
+      "seed": 3141,
+      "best_epoch": 100,
+      "final": {
+        "mAP50": 0.992,
+        "mAP50_95": 0.9858,
+        "precision": 0.9986,
+        "recall": 1.0,
+        "f1": 0.9993,
+        "fps": 25.7,
+        "lat_mean": 38.87,
+        "lat_p50": 38.83,
+        "lat_p95": 39.99,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9888,
+            "mAP50_95": 0.9813,
+            "precision": 0.995,
+            "recall": 0.9967
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9988,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9871,
+            "mAP50_95": 0.9772,
+            "precision": 0.9952,
+            "recall": 0.9964
+          }
+        }
+      }
+    },
+    {
+      "seed": 9999,
+      "best_epoch": 100,
+      "final": {
+        "mAP50": 0.9923,
+        "mAP50_95": 0.9856,
+        "precision": 0.9986,
+        "recall": 1.0,
+        "f1": 0.9993,
+        "fps": 26.5,
+        "lat_mean": 37.71,
+        "lat_p50": 37.53,
+        "lat_p95": 38.38,
+        "gpu_mb": 1353.0,
+        "per_class": {
+          "libre": {
+            "mAP50": 0.9893,
+            "mAP50_95": 0.9809,
+            "precision": 0.995,
+            "recall": 0.9967
+          },
+          "no_disponible": {
+            "mAP50": 1.0,
+            "mAP50_95": 0.9985,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "ocupado": {
+            "mAP50": 0.9877,
+            "mAP50_95": 0.9774,
+            "precision": 0.9952,
+            "recall": 0.9964
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "mAP50": {
+      "mean": 0.9925,
+      "std": 0.0003,
+      "values": [
+        0.9924,
+        0.9927,
+        0.9929,
+        0.993,
+        0.9928,
+        0.9926,
+        0.9927,
+        0.9921,
+        0.992,
+        0.9923
+      ]
+    },
+    "mAP50_95": {
+      "mean": 0.9865,
+      "std": 0.0008,
+      "values": [
+        0.9852,
+        0.9871,
+        0.9874,
+        0.9875,
+        0.9874,
+        0.9864,
+        0.9865,
+        0.9862,
+        0.9858,
+        0.9856
+      ]
+    },
+    "precision": {
+      "mean": 0.9981,
+      "std": 0.0007,
+      "values": [
+        0.9982,
+        0.9986,
+        0.9977,
+        0.9991,
+        0.9968,
+        0.9977,
+        0.9977,
+        0.9982,
+        0.9986,
+        0.9986
+      ]
+    },
+    "recall": {
+      "mean": 1.0,
+      "std": 0.0,
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "f1": {
+      "mean": 0.9991,
+      "std": 0.0003,
+      "values": [
+        0.9991,
+        0.9993,
+        0.9989,
+        0.9995,
+        0.9984,
+        0.9989,
+        0.9989,
+        0.9991,
+        0.9993,
+        0.9993
+      ]
+    },
+    "fps": {
+      "mean": 26.92,
+      "std": 0.9016,
+      "values": [
+        27.3,
+        27.3,
+        27.9,
+        27.9,
+        27.8,
+        26.0,
+        27.2,
+        25.6,
+        25.7,
+        26.5
+      ]
+    },
+    "lat_p50": {
+      "mean": 37.164,
+      "std": 1.2497,
+      "values": [
+        36.59,
+        36.72,
+        35.91,
+        35.91,
+        35.99,
+        38.55,
+        36.51,
+        39.1,
+        38.83,
+        37.53
+      ]
+    },
+    "lat_p95": {
+      "mean": 38.084,
+      "std": 1.4201,
+      "values": [
+        37.2,
+        37.23,
+        36.71,
+        36.47,
+        36.69,
+        39.51,
+        38.51,
+        40.15,
+        39.99,
+        38.38
+      ]
+    },
+    "gpu_mb": {
+      "mean": 1353.0,
+      "std": 0.0,
+      "values": [
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0,
+        1353.0
+      ]
+    }
+  },
+  "cls_summary": {
+    "libre": {
+      "mAP50": {
+        "mean": 0.9895,
+        "std": 0.0005
+      },
+      "mAP50_95": {
+        "mean": 0.9814,
+        "std": 0.0007
+      },
+      "precision": {
+        "mean": 0.9955,
+        "std": 0.0007
+      },
+      "recall": {
+        "mean": 0.9969,
+        "std": 0.0005
+      }
+    },
+    "no_disponible": {
+      "mAP50": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "mAP50_95": {
+        "mean": 0.9987,
+        "std": 0.0002
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    "ocupado": {
+      "mAP50": {
+        "mean": 0.9883,
+        "std": 0.0008
+      },
+      "mAP50_95": {
+        "mean": 0.9795,
+        "std": 0.0022
+      },
+      "precision": {
+        "mean": 0.9935,
+        "std": 0.0016
+      },
+      "recall": {
+        "mean": 0.9965,
+        "std": 0.0009
+      }
+    }
+  }
+}

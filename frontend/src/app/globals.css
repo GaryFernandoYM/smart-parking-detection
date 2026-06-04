@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:        #05080D;
+  --surface:   #090F1A;
+  --surface2:  #0D1724;
+  --border:    #162030;
+  --border-hi: #1C2E44;
+  --teal:      #00D4AA;
+  --teal-d:    rgba(0,212,170,0.12);
+  --amber:     #F5A300;
+  --amber-d:   rgba(245,163,0,0.12);
+  --green:     #22c55e;
+  --red:       #ef4444;
+  --text:      #BDD4EC;
+  --text-sub:  #3E5E7A;
+  --font-d:    'Syne', sans-serif;
+  --font-m:    'JetBrains Mono', 'Courier New', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-d);
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(rgba(0,212,170,0.055) 1px, transparent 1px);
+  background-size: 30px 30px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+::-webkit-scrollbar { width: 3px; height: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--teal); }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.2; }
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,212,170,0.45); }
+  50%       { box-shadow: 0 0 0 5px rgba(0,212,170,0); }
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.fade-up   { animation: fade-up 0.22s ease forwards; }
+.do-blink  { animation: blink 1.6s ease-in-out infinite; }
+.do-glow   { animation: pulse-glow 2.2s ease-in-out infinite; }
+.do-spin   { animation: spin-slow 1.2s linear infinite; }

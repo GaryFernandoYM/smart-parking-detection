@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['libre', 'no_disponible', 'ocupado']
+
+roboflow:
+  workspace: fernando-qzldu
+  project: smart-parking-upeu
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fernando-qzldu/smart-parking-upeu/dataset/4
